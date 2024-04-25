@@ -3,3 +3,20 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+
+home:
+  path: /
+  controller: App\Controller\HomeController::index
+
+projects:
+    path: /proyectos
+    controller: App\Controller\ProjectController::index
+
+skills:
+    path: /habilidades
+    controller: App\Controller\SkillController::index
+
+about:
+    path: /sobre-mi
+    controller: App\Controller\AboutController::index
+
